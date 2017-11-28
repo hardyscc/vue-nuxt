@@ -32,5 +32,9 @@ module.exports = {
         })
       }
     }
-  }
+  },
+  /*
+  ** Modules configuration
+  */
+  modules: ['@nuxtjs/pwa']
 }
