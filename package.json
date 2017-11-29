@@ -13,6 +13,8 @@
     "precommit": "npm run lint"
   },
   "dependencies": {
+    "@nuxtjs/pwa": "^2.0.3",
+    "buefy": "^0.6.1",
     "nuxt": "^1.0.0-rc11"
   },
   "devDependencies": {
@@ -24,6 +26,10 @@
     "eslint-plugin-import": "^2.7.0",
     "eslint-plugin-node": "^5.1.1",
     "eslint-plugin-promise": "^3.5.0",
-    "eslint-plugin-standard": "^3.0.1"
+    "eslint-plugin-standard": "^3.0.1",
+    "node-sass": "^4.7.2",
+    "sass-loader": "^6.0.6",
+    "vue-server-renderer": "^2.5.9",
+    "vue-template-compiler": "^2.5.9"
   }
 }

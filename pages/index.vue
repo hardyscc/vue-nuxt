@@ -8,9 +8,9 @@
       <h2 class="subtitle">
         Nuxt.js project
       </h2>
-      <div class="links">
-        <a href="https://nuxtjs.org/" target="_blank" class="button--green">Documentation</a>
-        <a href="https://github.com/nuxt/nuxt.js" target="_blank" class="button--grey">GitHub</a>
+      <div class="buttons is-centered">
+        <a class="button is-outlined is-primary is-large" href="https://nuxtjs.org/" target="_blank">Documentation</a>
+        <a class="button is-outlined is-info is-large" href="https://github.com/nuxt/nuxt.js" target="_blank">GitHub</a>
       </div>
     </div>
   </section>
@@ -53,7 +53,7 @@ export default {
   padding-bottom: 15px;
 }
 
-.links {
+.buttons {
   padding-top: 15px;
 }
 </style>

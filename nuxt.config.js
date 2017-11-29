@@ -9,7 +9,14 @@ module.exports = {
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: 'Nuxt.js project' }
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
+    link: [
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      {
+        rel: 'stylesheet',
+        type: 'text/css',
+        href: '//fonts.googleapis.com/icon?family=Material+Icons'
+      }
+    ]
   },
   /*
   ** Customize the progress bar color
@@ -33,6 +40,14 @@ module.exports = {
       }
     }
   },
+  /*
+  ** default to SPA mode
+  */
+  mode: 'spa',
+  /*
+  ** Plugins configuration
+  */
+  plugins: ['~plugins/buefy'],
   /*
   ** Modules configuration
   */
