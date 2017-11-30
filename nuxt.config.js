@@ -52,5 +52,13 @@ module.exports = {
   /*
   ** Modules configuration
   */
-  modules: ['@nuxtjs/pwa']
+  modules: ['@nuxtjs/pwa', '@nuxtjs/apollo'],
+  /*
+  ** Apollo configuration
+  */
+  apollo: {
+    networkInterfaces: {
+      default: '~/apollo/network-interfaces/default.js'
+    }
+  }
 }
