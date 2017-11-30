@@ -10,11 +10,10 @@ module.exports = {
       { hid: 'description', name: 'description', content: 'Nuxt.js project' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
       {
         rel: 'stylesheet',
         type: 'text/css',
-        href: '//fonts.googleapis.com/icon?family=Material+Icons'
+        href: 'https://fonts.googleapis.com/icon?family=Material+Icons'
       }
     ]
   },
@@ -38,6 +37,8 @@ module.exports = {
           exclude: /(node_modules)/
         })
       }
+      // ignore the asset size limit warning
+      config.performance = { hints: false }
     }
   },
   /*
