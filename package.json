@@ -15,7 +15,7 @@
   "dependencies": {
     "@nuxtjs/pwa": "^2.0.3",
     "buefy": "^0.6.1",
-    "nuxt": "latest",
+    "nuxt": "^1.0.0-rc11",
     "vue": "~2.4.4"
   },
   "devDependencies": {
