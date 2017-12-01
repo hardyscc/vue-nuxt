@@ -57,8 +57,8 @@ module.exports = {
   ** Apollo configuration
   */
   apollo: {
-    networkInterfaces: {
-      default: '~/apollo/network-interfaces/default.js'
+    clientConfigs: {
+      default: '~/apollo/client-configs/default.js'
     }
   }
 }
