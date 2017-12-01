@@ -60,5 +60,11 @@ module.exports = {
     clientConfigs: {
       default: '~/apollo/client-configs/default.js'
     }
+  },
+  /*
+  ** Router configuration
+  */
+  router: {
+    linkActiveClass: 'is-active'
   }
 }
