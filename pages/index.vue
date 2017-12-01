@@ -15,12 +15,20 @@
             <a class="button is-outlined is-primary" href="https://github.com/nuxt/nuxt.js" target="_blank">GitHub</a>
           </div>
           <div>
-            <h3>Cars</h3>
-            <ul>
-              <li v-for="car in allCars" :key="car.id">
-                {{ car.year }} {{ car.make }} {{ car.model }}
-              </li>
-            </ul>
+            <table class="table is-bordered is-striped is-narrow is-fullwidth">
+              <thead>
+                <td>Year</td>
+                <td>Make</td>
+                <td>Model</td>
+              </thead>
+              <tbody>
+                <tr v-for="car in allCars" :key="car.id">
+                  <td>{{ car.year }}</td>
+                  <td>{{ car.make }}</td>
+                  <td>{{ car.model }}</td>
+                </tr>
+              </tbody>
+            </table>
           </div>
         </div>
       </div>
