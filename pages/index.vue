@@ -3,10 +3,10 @@
     <div class="hero-body">
       <div class="container has-text-centered">
         <logo/>
-        <h1 class="title">
-          vue-nuxt
+        <h1 class="title is-size-1">
+          Vue Nuxt
         </h1>
-        <h2 class="subtitle">
+        <h2 class="subtitle is-size-5">
           Power by Vue.js, Nuxt.js and Bulma.
         </h2>
         <div class="buttons is-centered">
@@ -16,16 +16,16 @@
         <div class="columns is-centered">
           <div class="column is-half">
             <table class="table is-bordered is-striped is-narrow is-fullwidth">
-              <thead>
+              <thead class="has-text-weight-bold">
                 <td>Year</td>
-                <td>Make</td>
-                <td>Model</td>
+                <td class="has-text-right">Make</td>
+                <td class="has-text-right">Model</td>
               </thead>
               <tbody>
                 <tr v-for="car in allCars" :key="car.id">
                   <td>{{ car.year }}</td>
-                  <td>{{ car.make }}</td>
-                  <td>{{ car.model }}</td>
+                  <td class="has-text-right">{{ car.make }}</td>
+                  <td class="has-text-right">{{ car.model }}</td>
                 </tr>
               </tbody>
             </table>
@@ -56,6 +56,6 @@ export default {
 
 <style scoped>
 .hero .title {
-  padding: 1rem 0;
+  padding: 1.5rem 0;
 }
 </style>
