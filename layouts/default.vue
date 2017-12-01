@@ -1,8 +1,19 @@
 <template>
   <div>
+    <AppMenu/>
     <nuxt/>
   </div>
 </template>
+
+<script>
+import AppMenu from '~/components/AppMenu.vue'
+
+export default {
+  components: {
+    AppMenu
+  }
+}
+</script>
 
 <style lang="scss">
 // Import Bulma's core

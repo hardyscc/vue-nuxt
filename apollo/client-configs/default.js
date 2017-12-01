@@ -13,7 +13,7 @@ export default ctx => {
   // middleware
   const middlewareLink = new ApolloLink((operation, forward) => {
     operation.setContext({
-      headers: { authorization: `Bearer ${token}` }
+      headers: { Authorization: `Bearer ${token}` }
     })
     return forward(operation)
   })
