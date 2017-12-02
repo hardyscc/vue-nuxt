@@ -7,7 +7,7 @@
           Vue Nuxt
         </h1>
         <h2 class="subtitle is-size-5">
-          Power by Vue.js, Nuxt.js and Bulma.
+          Power by Vue.js, Nuxt.js, Apollo and Bulma.
         </h2>
         <div class="buttons is-centered">
           <a class="button is-outlined is-twitter" href="https://nuxtjs.org/" target="_blank">Documentation</a>
